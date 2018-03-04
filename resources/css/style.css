@@ -214,17 +214,22 @@ header .flex {
 .uslugi {
   margin-top: 2%;
   text-align: center;
-  color: #1882A3;
+  color: #164C49;
   font-size: 20px;
   font-weight: bold;
   font-family: 'Montserrat', sans-serif;
 
 }
 .uslugi a {
-  color: black;
+  color: #164C49;
   font-style: italic;
   font-weight: normal;
   font-size: 15px;
+}
+.uslugi h1 {
+  line-height: 2.5;
+  border-radius: 5px;
+  background-color: #40DDD4;
 }
 /* ICONS */
 .icons {
@@ -260,10 +265,12 @@ header .flex {
   justify-content: space-between;
   align-items: center;
   padding: 2.5rem;
+  color: #9BADB2;
   /*border: 1px solid black;*/
 }
 .exams:hover, .fittings:hover, .delivery:hover  {
-  background-color: #D2F3FE;
+  background-color: #EEF7FF;
+  border-radius: 5px;
 }
 @media only screen and (max-width: 700px) {
   .icons .exams, .icons .fittings {
