@@ -131,6 +131,12 @@ header:before {
 .left p {
 
 }
+/* FOR TEST 1024*/
+@media only screen and (max-width: 1024px) {
+  .left p {
+    display: none;
+  }
+}
 @media only screen and (max-width: 700px)  {
   .left p {
     display: none;
