@@ -220,12 +220,19 @@ header .flex {
   font-family: 'Montserrat', sans-serif;
 
 }
+.uslugi a {
+  color: black;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 15px;
+}
 /* ICONS */
 .icons {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  margin-bottom: 2rem;
 }
 @media only screen and (max-width: 1024px) {
   /* Придумать, как подвинуть влево и исправить текст
@@ -254,7 +261,9 @@ header .flex {
   align-items: center;
   padding: 2.5rem;
   /*border: 1px solid black;*/
-
+}
+.exams:hover, .fittings:hover, .delivery:hover  {
+  background-color: #D2F3FE;
 }
 @media only screen and (max-width: 700px) {
   .icons .exams, .icons .fittings {
@@ -344,7 +353,7 @@ header .flex {
 /* FOOT */
 .foot {
   padding: 4rem 0;
-  margin-top: 5rem;
+  margin-top: 2rem;
   height: 1.5rem;
   background-color: #D2F3FE;
   display: flex;
