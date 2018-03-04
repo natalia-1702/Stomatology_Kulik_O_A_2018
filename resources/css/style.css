@@ -215,14 +215,15 @@ header .flex {
 .uslugi {
   margin-top: 2%;
   text-align: center;
-  color: #164C49;
+  color: white;
+
   font-size: 20px;
-  font-weight: bold;
+  /*font-weight: bold;*/
   font-family: 'Montserrat', sans-serif;
 
 }
 .uslugi a {
-  color: #164C49;
+  color: inherit;
   font-style: italic;
   font-weight: normal;
   font-size: 15px;
@@ -230,7 +231,8 @@ header .flex {
 .uslugi h1 {
   line-height: 2.5;
   border-radius: 5px;
-  background-color: #40DDD4;
+  /*background-color: #40DDD4;*/
+  background-color: #00AEB9;
 }
 /* ICONS */
 .icons {
